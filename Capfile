@@ -1,6 +1,6 @@
 # Load DSL and set up stages
 require 'capistrano/setup'
-
+set :stage, :production
 # Include default deployment tasks
 require 'capistrano/deploy'
 
@@ -17,7 +17,7 @@ require 'capistrano/deploy'
 #
 require 'capistrano/rails'
 require 'capistrano/bundler'
-require 'capistrano/rvm'
+#require 'capistrano/rvm'
 require 'capistrano/puma'
 
 # Load custom tasks from `lib/capistrano/tasks` if you have any defined

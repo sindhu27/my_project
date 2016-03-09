@@ -54,3 +54,4 @@ group :development do
 end
 
 gem 'puma'
+gem 'thin'
