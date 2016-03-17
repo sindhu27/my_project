@@ -2,9 +2,15 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+<<<<<<< HEAD
 gem 'rails', '4.2.6'
 # Use mysql as the database for Active Record
 gem 'mysql2', '>= 0.3.13', '< 0.5'
+=======
+gem 'rails', '4.2.4'
+# Use mysql as the database for Active Record
+gem 'mysql2', '~> 0.3.20'
+>>>>>>> 3a1feeb27c4502bf167d377f0a3edf4b6c132218
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -12,7 +18,11 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
+<<<<<<< HEAD
 # gem 'therubyracer', platforms: :ruby
+=======
+gem 'therubyracer', platforms: :ruby
+>>>>>>> 3a1feeb27c4502bf167d377f0a3edf4b6c132218
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -45,3 +55,16 @@ group :development do
   gem 'spring'
 end
 
+<<<<<<< HEAD
+=======
+group :development do
+   gem 'capistrano',         require: false
+   gem 'capistrano-rvm',     require: false
+   gem 'capistrano-rails',   require: false
+   gem 'capistrano-bundler', require: false
+   gem 'capistrano3-puma',   require: false
+end
+
+gem 'puma'
+gem 'thin'
+>>>>>>> 3a1feeb27c4502bf167d377f0a3edf4b6c132218
